@@ -16,24 +16,27 @@
         <div class="">
             <h1 class="text-DesertSand pb-10 text-xl">Get in touch</h1>
         </div>
-        <div class="text-gray-800">
-            <form action="" class="flex flex-col space-y-4">
+        <div class="text-gray-800 flex flex-row">
+            <form action="" class="flex flex-col space-y-4 basis-2/4">
                 <div>
-                    <input type="text" placeholder="Your name" class="ring-name ring-gray-300 w-[50%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe">
+                    <input type="text" placeholder="Your name" class="ring-name ring-gray-300 w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe">
                 </div>
                 <div>
-                    <input type="email" placeholder="Email Address" class="ring-name ring-gray-300 w-[50%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe">
+                    <input type="email" placeholder="Email Address" class="ring-name ring-gray-300 w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe">
                 </div>
                 <div>
-                    <input type="text" placeholder="Subject" class="ring-name ring-gray-300 w-[50%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe"> 
+                    <input type="text" placeholder="Subject" class="ring-name ring-gray-300 w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe"> 
                 </div>
                 <div>
-                    <textarea placeholder="Message" rows="8" class="ring-name ring-gray-300 w-[50%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe"></textarea>
+                    <textarea placeholder="Message" rows="8" class="ring-name ring-gray-300 w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe"></textarea>
                 </div>
                 <button class="inline-block self-start bg-Butterscotch text-Drab font-semibold rounded-lg px-6 py-3">
                     Send Message
                 </button>
             </form>
+            <div class="basis-2/4">
+                <img src="./images/Contact-image.jpg" class="rounded-xl mt-5">
+            </div>
         </div>
     </div>
 </body>
