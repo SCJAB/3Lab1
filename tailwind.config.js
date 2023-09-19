@@ -6,7 +6,8 @@ module.exports = {
       'Drab':'#242501',
       'DesertSand': '#E9C6A2',
       'Cafe': '#5A452C',
-      'Butterscotch': '#DF984B'},
+      'Butterscotch': '#DF984B',
+      'white': '#FFFFFF'},
     extend: {},
   },
   plugins: [
