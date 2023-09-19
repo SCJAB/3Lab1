@@ -8,8 +8,8 @@
 </head>
 <body class="h-screen">
     <?php include "navbar.php" ?>
-    <div class="flex-grow h-52 p-10">
-        <?php echo '<h1 class="text-center text-7xl">We\'re thrilled to hear from you.</h1>' ?>
+    <div class="flex-grow h-52 p-10 text-Cafe">
+        <?php echo '<h1 class="text-center text-7xl font-semibold">We\'re thrilled to hear from you.</h1>' ?>
         <?php echo '<h2 class="text-center text-xl mt-4">Whether you have questions, suggestions, or just want to chat about coffee, we\'re here to listen. Feel free to reach out through the contact form.</h2>' ?>
     </div>
     <div class="p-10 bg-Drab mx-44">
